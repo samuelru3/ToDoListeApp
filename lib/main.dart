@@ -80,7 +80,7 @@ class ToDoItem extends StatelessWidget {
         contentPadding: EdgeInsets.symmetric(vertical: 8.0),
         tileColor: Colors.black54,
         leading: Checkbox(
-          value: true,
+          value: false,
         ),
         title: Text(
           title,
