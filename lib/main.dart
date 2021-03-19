@@ -9,6 +9,7 @@ class ToDo extends StatefulWidget {
 
 class _ToDoState extends State<ToDo> {
   List<String> products = ['Tomate', 'Käse', 'Lauch', 'Paprika', 'Wein'];
+
   void addItem(String item) {
     setState(() {
       products.add(item);
